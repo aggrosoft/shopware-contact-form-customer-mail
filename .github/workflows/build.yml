@@ -5,7 +5,7 @@ jobs:
   build:
     uses: FriendsOfShopware/actions/.github/workflows/github.yml@main
     with:
-      extensionName: 'AggroContactFormSenderMailPlugin'
-      shopwareVersion: '6.4.0'
+      extensionName: 'AggroContactFormSenderMail'
+      shopwareVersion: '6.5.2'
     secrets:
       ghToken: ${{ secrets.GH_TOKEN }}
