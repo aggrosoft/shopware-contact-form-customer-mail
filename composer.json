@@ -1,22 +1,22 @@
 {
   "name": "aggrosoft/shopware-contact-form-customer-mail",
-  "description": "Force customer given mail as sender mail for contact form",
+  "description": "Put customer given mail as reply to for contact form",
   "type": "shopware-platform-plugin",
   "license": "MIT",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "autoload": {
     "psr-4": {
       "AggroContactFormSenderMail\\": "src/"
     }
   },
   "require": {
-    "shopware/core": "~6.6.0"
+    "shopware/core": "~6.7.0"
   },
   "extra": {
     "shopware-plugin-class": "AggroContactFormSenderMail\\AggroContactFormSenderMailPlugin",
     "label": {
-      "de-DE": "Kontaktformular Kundenmail als Absender",
-      "en-GB": "Contact form customer mail as sender"
+      "de-DE": "Kontaktformular Kundenmail als Antwortadresse",
+      "en-GB": "Contact form customer mail as reply-to"
     }
   }
 }

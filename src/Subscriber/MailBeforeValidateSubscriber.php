@@ -18,7 +18,7 @@ class MailBeforeValidateSubscriber implements EventSubscriberInterface
     {
         $data = $event->getTemplateData();
         if( isset($data['contactFormData']) && isset($data['contactFormData']['email']) ){
-            $event->addData('senderMail', $data['contactFormData']['email']);
+            $event->addData('replyTo', $data['contactFormData']['email']);
         }
     }
 }
